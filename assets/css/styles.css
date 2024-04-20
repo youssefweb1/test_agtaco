@@ -1430,6 +1430,10 @@ footer img {
     transition: .3s;
     z-index: var(--z-fixed);
   }
+    /* Show menu */
+.show-menu {
+  right:0;
+}
   .steps__card:not(:first-child)::before {
     content: '';
     position: absolute;
